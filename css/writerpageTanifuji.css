@@ -1,0 +1,120 @@
+@charset "utf-8";
+nav{
+    border-bottom: 1px solid #ccc;
+    }
+    nav ul{
+    display: table;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    }
+    nav ul li{
+    display: table-cell;
+    min-width: 50px;
+    border-right: 1px solid #ccc;
+    }
+    nav ul li:first-child{
+    border-left: 1px solid #ccc;
+    }
+    nav ul li a{
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #aaa;
+    }
+    nav ul li a:hover{
+    background-color:#F8E750;
+    border-bottom: 5px solid #F8E750;
+    }
+    nav ul li.current{
+    font-weight: bold;
+    }
+    nav ul li.current a{
+    border-bottom: 5px solid #00B0F0;
+    color: #00B0F0;
+    }
+
+   .part-img{
+    width: auto;
+    height: auto;
+    background-image: url("../img/ヘッダー6.png"),url("../img/背景.png");
+    background-size: contain,cover;
+    background-position: top,bottom;
+    background-repeat: no-repeat;
+   }
+
+
+   table{
+    width: 70%;
+  }
+  
+  table tr{
+    border-bottom: solid 4px white;
+  }
+  
+  table tr:last-child{
+    border-bottom: none;
+  }
+  
+  table th{
+    position: relative;
+    text-align: left;
+    width: 30%;
+    background-color: #52c2d0;
+    color: white;
+    text-align: center;
+    padding: 0px 0;
+  }
+  
+  table th:after{
+    display: block;
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top:calc(50% - 10px);
+    right:-10px;
+    border-left: 10px solid #52c2d0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+  }
+  
+  table td{
+    text-align: left;
+    width: 80%;
+    text-align: center;
+    background-color: #eee;
+    padding: 0px 10px;
+  }
+
+
+
+
+
+  .box2 {
+    padding: 0.5em 1em;
+    margin: 1em 0;
+    font-weight: bold;
+    color: #6091d3;/*文字色*/
+    background: #FFF;
+    border: solid 3px #6091d3;/*線*/
+    border-radius: 10px;/*角の丸み*/
+}
+.box2 p {
+    margin: 0; 
+    padding: 0;
+}
+
+footer{
+  width: 100%;
+  height: 80px;
+  background-color: #dcb04a;
+  color: white;
+  text-align: center;
+}
+ul.footer-menu li {
+margin: 10px;
+display: inline;
+}
